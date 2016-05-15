@@ -14,7 +14,7 @@
 	<scm>
 		<connection>scm:git:git@github.com:vtapadia/springPlayground.git</connection>
 		<developerConnection>scm:git:git@github.com:vtapadia/springPlayground.git</developerConnection>
-		<url>git@github.com:vtapadia/springPlayground.git</url>
+		<url>https://github.com/vtapadia/springPlayground</url>
 	</scm>
 
 	<ciManagement>
