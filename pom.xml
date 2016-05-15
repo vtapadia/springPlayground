@@ -11,6 +11,14 @@
 	<name>springPlayground</name>
 	<description>Spring playground</description>
 
+	<licenses>
+		<license>
+			<name>The Apache Software License, Version 2.0</name>
+			<url>https://raw.githubusercontent.com/vtapadia/springPlayground/master/LICENSE</url>
+			<distribution>repo</distribution>
+		</license>
+	</licenses>
+
 	<scm>
 		<connection>scm:git:git@github.com:vtapadia/springPlayground.git</connection>
 		<developerConnection>scm:git:git@github.com:vtapadia/springPlayground.git</developerConnection>
@@ -102,14 +110,14 @@
 					<merge>true</merge>
 					<server>github</server>
 
-					<dryRun>false</dryRun>
+					<dryRun>true</dryRun>
 				</configuration>
 				<executions>
 					<execution>
 						<goals>
 							<goal>site</goal>
 						</goals>
-						<phase>site-deploy</phase>
+						<phase>site</phase>
 					</execution>
 				</executions>
 			</plugin>
