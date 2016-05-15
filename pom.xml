@@ -11,13 +11,6 @@
 	<name>springPlayground</name>
 	<description>Spring playground</description>
 
-	<parent>
-		<groupId>org.springframework.boot</groupId>
-		<artifactId>spring-boot-starter-parent</artifactId>
-		<version>1.3.5.RELEASE</version>
-		<relativePath/>
-	</parent>
-
 	<scm>
 		<connection>scm:git:git@github.com:vtapadia/springPlayground.git</connection>
 		<developerConnection>scm:git:git@github.com:vtapadia/springPlayground.git</developerConnection>
@@ -75,7 +68,19 @@
 			<scope>test</scope>
 		</dependency>
 	</dependencies>
-	
+
+	<dependencyManagement>
+		<dependencies>
+			<dependency>
+				<groupId>org.springframework.boot</groupId>
+				<artifactId>spring-boot-dependencies</artifactId>
+				<version>1.3.5.RELEASE</version>
+				<type>pom</type>
+				<scope>import</scope>
+			</dependency>
+		</dependencies>
+	</dependencyManagement>
+
 	<build>
 		<plugins>
 			<plugin>
