@@ -102,7 +102,7 @@
 					<merge>true</merge>
 					<server>github</server>
 
-					<dryRun>true</dryRun>
+					<dryRun>false</dryRun>
 				</configuration>
 				<executions>
 					<execution>
