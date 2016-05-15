@@ -39,7 +39,6 @@
 		<developer>
 			<name>Varesh Tapadia</name>
 			<email>varesh.tapadia@gmail.com</email>
-			<organization>Daddy Experiments</organization>
 		</developer>
 	</developers>
 
@@ -148,12 +147,19 @@
 					<reportSet>
 						<id>default</id>
 						<reports>
+							<!-- cim, dependencies, dependency-convergence, dependency-info, dependency-management,
+							distribution-management, help, index, issue-tracking, license, mailing-list,
+							modules, plugin-management, plugins, project-team, scm, summary -->
 							<report>project-team</report>
 							<report>mailing-list</report>
 							<report>cim</report>
 							<report>issue-tracking</report>
 							<report>license</report>
 							<report>scm</report>
+							<report>plugins</report>
+							<report>dependencies</report>
+							<report>summary</report>
+							<report>index</report>
 						</reports>
 					</reportSet>
 				</reportSets>
