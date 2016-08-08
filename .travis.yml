@@ -3,6 +3,9 @@ language: java
 jdk:
   - oraclejdk8
 
+before_install:
+  - chmod +x mvnw
+
 after_success:
 - mvn clean site
 
